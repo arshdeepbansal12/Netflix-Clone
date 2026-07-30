@@ -1,0 +1,463 @@
+   *,
+   *::before,
+   *::after {
+       box-sizing: border-box;
+   }
+
+   html,
+   body {
+       width: 100%;
+       overflow-x: hidden;
+   }
+
+   body {
+       background-color: black;
+       overflow-x: hidden;
+       box-sizing: border-box;
+
+   }
+
+   * {
+       margin: 0;
+       padding: 0;
+       font-family: sans-serif;
+   }
+
+   main {
+       background-image: linear-gradient(7deg, rgba(0, 0, 0, 0.8500) 10.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39.00%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.7250) 53.50%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68.00%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.50%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6000) 97.00%), url(assets/Background_image.jpg);
+       height: 100%;
+       width: 100%;
+       opacity: 1.70;
+       margin: auto;
+       background-position: top center;
+
+
+   }
+
+   nav img {
+       height: 40px;
+   }
+
+   nav span {
+       color: white;
+   }
+
+   nav {
+       padding: 20px;
+       width: 80vw;
+       margin: auto;
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .lang {
+       border: 1px solid white;
+       padding: 5px;
+       font-size: 16px;
+       cursor: pointer;
+       margin-right: 10px;
+       border-radius: 4px
+   }
+
+   .down {
+       vertical-align: middle;
+       margin-bottom: 5px;
+
+   }
+
+   .sign_in {
+       background-color: #e50914;
+       font-size: 16px;
+       /* border: 1px solid white; */
+       padding: 5px;
+       border-radius: 4px
+   }
+
+   .disp {
+       color: white;
+       font-size: 56px;
+       font-weight: 700;
+
+   }
+
+   .main-disp-msg {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+
+       width: 30vw;
+       margin: 160px auto;
+       width: 490px;
+
+   }
+
+   .disp-2 {
+       font-size: 20px;
+       font-weight: 500;
+       color: white;
+       margin-left: 75px;
+       margin-top: 20px;
+   }
+
+   .disp-3 {
+       color: white;
+       font-size: 16px;
+       font-weight: 400;
+       margin-top: 60px;
+       margin-left: -17px;
+       width: 508px;
+   }
+
+   .button-area {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+
+
+   .button-area {
+       margin-top: 10px;
+       display: flex;
+       gap: 5px;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .common {
+       padding: 10px 0;
+   }
+
+   .input {
+       width: 340px;
+       background-color: transparent;
+       border: 1px solid white;
+       border-radius: 4px;
+       color: white;
+
+
+   }
+
+   .input::placeholder {
+       color: rgb(199, 190, 190);
+       font-weight: 700;
+
+   }
+
+   .get-started-button {
+       padding: 5px;
+       border-radius: 4px;
+       background-color: #e50914;
+       color: white;
+       height: 40px;
+       font-size: 17px;
+       width: 144px;
+       border: 1px solid white;
+
+   }
+
+   .get-started-button:hover {
+       background-color: #82030a;
+   }
+
+   .section-2 {
+       width: 80vw;
+       margin: auto;
+       display: flex;
+       gap: 60px;
+       margin-top: 24px;
+
+   }
+
+   .starting-of-next-section {
+       color: white;
+       font-size: 24px;
+       font-weight: 700;
+       margin-top: 100px;
+       margin-left: 100px;
+
+   }
+
+   .seperation {
+
+       height: 5px;
+       width: 100%;
+       margin: auto;
+       background-color: gray;
+
+   }
+
+   .horizontal-movies {
+       border-radius: 10px;
+   }
+
+   .nums {
+       position: relative;
+       top: -123px;
+       right: 29px;
+       width: 70px;
+   }
+
+   .starting-of-next-section-2 {
+       color: white;
+       font-size: 24px;
+       font-weight: 700;
+       margin-top: 6px;
+       margin-left: 100px;
+   }
+
+   .box {
+       height: 295px;
+       width: 298px;
+       border: 2px solid white;
+       background-color: #1e1528;
+       border-radius: 20px;
+       display: flex;
+       flex-direction: column;
+       gap: 2px;
+       color: white;
+   }
+
+   .section-3 {
+       width: 85vw;
+       margin: auto;
+       display: flex;
+       gap: 34px;
+       margin-top: 24px;
+
+
+   }
+
+   .div-1 {
+       padding: 22px 0;
+       font-size: 24px;
+       font-weight: 700;
+       margin-left: 23px;
+   }
+
+   .div-2 {
+       font-size: 16px;
+       font-weight: 400;
+       padding: 0px 23px
+   }
+
+   .starting-of-next-section-3 {
+       color: white;
+       font-size: 24px;
+       font-weight: 700;
+       margin-top: 69px;
+       margin-left: 100px;
+       margin-bottom: 30px;
+
+   }
+
+   .faqs {
+       height: 78px;
+       width: 85vw;
+       color: white;
+       background-color: #2d2d2d;
+       margin: auto;
+       display: flex;
+       align-items: center;
+       font-size: 24px;
+       font-weight: 500;
+
+   }
+
+   .faqs:hover {
+       background-color: #454444
+   }
+
+   .section-4 {
+       display: flex;
+       flex-direction: column;
+       gap: 5px;
+   }
+
+   .disp-again {
+
+
+       margin-left: 439px;
+
+       margin-bottom: 20px;
+   }
+
+   .call {
+       color: rgb(255, 255, 255);
+       margin-top: 69px;
+       display: flex;
+       justify-content: flex-start;
+       width: 80vw;
+       margin: 35px auto;
+   }
+
+   .footer-links {
+       color: inherit;
+       text-decoration: none;
+   }
+
+   .list-links ul {
+       list-style: none;
+       color: white;
+       text-decoration: underline;
+       cursor: pointer;
+   }
+
+   .list-links ul li {
+       margin: 10px;
+   }
+
+   .list-links {
+       width: 80vw;
+       display: flex;
+       margin: auto;
+       gap: 172px;
+   }
+
+   footer {
+       font-size: small;
+   }
+
+   .end {
+       width: 15vw;
+       margin: 72px auto;
+       color: white;
+   }
+
+   @media (max-width: 768px) {
+       nav {
+           width: 92%;
+           flex-direction: column;
+           align-items: flex-start;
+           gap: 12px;
+           padding: 16px 0;
+       }
+
+       nav img {
+           height: 32px;
+       }
+
+       .lang,
+       .sign_in {
+           font-size: 14px;
+       }
+
+       .main-disp-msg {
+           width: 92%;
+           margin: 90px auto 40px;
+       }
+
+       .disp {
+           font-size: 34px;
+           line-height: 1.2;
+           text-align: center;
+       }
+
+       .disp-2,
+       .disp-3 {
+           width: 100%;
+           margin-left: 0;
+           text-align: center;
+           font-size: 16px;
+       }
+
+       .disp-3 {
+           margin-top: 24px;
+       }
+
+       .button-area {
+           flex-direction: column;
+           width: 92%;
+           margin: 16px auto 0;
+       }
+
+       .input {
+           width: 100%;
+       }
+
+       .get-started-button {
+           width: 100%;
+       }
+
+       .starting-of-next-section,
+       .starting-of-next-section-2,
+       .starting-of-next-section-3 {
+           margin-left: 16px;
+           margin-right: 16px;
+           font-size: 20px;
+       }
+
+       .section-2 {
+           width: 100%;
+           overflow-x: auto;
+           gap: 16px;
+           padding: 0 16px;
+       }
+
+       .section-2>div {
+           flex: 0 0 auto;
+       }
+
+       .horizontal-movies {
+           width: 140px;
+           height: auto;
+       }
+
+       .nums {
+           width: 50px;
+           top: -13px;
+           right: 167px;
+       }
+
+       .section-3 {
+           width: 92%;
+           flex-direction: column;
+           gap: 16px;
+       }
+
+       .box {
+           width: 100%;
+           height: auto;
+           min-height: 220px;
+       }
+
+       .div-1 {
+           font-size: 20px;
+       }
+
+       .div-2 {
+           font-size: 14px;
+       }
+
+       .faqs {
+           width: 92%;
+           height: auto;
+           min-height: 60px;
+           font-size: 18px;
+           padding: 16px;
+       }
+
+       .disp-again {
+           margin-left: 0;
+           width: 92%;
+           text-align: center;
+       }
+
+       .call {
+           width: 92%;
+           justify-content: center;
+           text-align: center;
+       }
+
+       .list-links {
+           width: 92%;
+           flex-direction: column;
+           gap: 20px;
+       }
+
+       .end {
+           width: 92%;
+           text-align: center;
+           margin: 40px auto;
+       }
+   }
